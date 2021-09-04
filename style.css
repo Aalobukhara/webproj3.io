@@ -1,0 +1,193 @@
+
+.my_nav{
+    /* box-shadow: 0px 20px 20px rgba(255, 0, 0, 0.6); */
+    backdrop-filter: blur(5px);
+}
+
+body{
+background-image: linear-gradient(45deg, rgb(45, 11, 30) 0%, rgb(45, 11, 30) 49%,rgb(78, 19, 25) 49%, rgb(78, 19, 25) 67%,rgb(111, 27, 19) 67%, rgb(111, 27, 19) 76%,rgb(143, 36, 14) 76%, rgb(143, 36, 14) 81%,rgb(176, 44, 8) 81%, rgb(176, 44, 8) 82%,rgb(209, 52, 3) 82%, rgb(209, 52, 3) 100%);
+background-size: 200%;
+    animation: bganimation 25s forwards;
+}
+
+@keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+.main-header{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-image: url(images/orange-banner.jpg);
+}
+.default-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url(images/orange-banner.jpg);
+}
+.header-text-holder, .default-header-text-holder{
+    padding: 10px;
+    box-shadow: 0px 0px 50px rgba(255, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0 ,0.5);
+    backdrop-filter: blur(5px);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.header-text-holder{
+    text-align: center;
+}
+
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+
+.default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.default-body-content .default-list-group .list-group-item h3{
+    font-size: 1..3em;
+}
+
+.default-body-content .default-list-group a{
+    color: black;
+}
+.form-control{
+    background-color:rgba(255, 255, 255, 0.7) ;
+}
+.butn:focus, .form-control:focus, .subsbtn:focus {
+    outline: none;
+    border:2px solid rgb(165, 60, 0);
+    box-shadow: 0 0 5px rgb(165, 60, 0);
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.subscribe-holder{
+    text-align: center;
+    color: aliceblue;
+}
+
+.subscribe-butn{
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(9px);
+}
+
+.subscribe-butn, .subscribe-butn:hover,.subsbtn:hover{
+    color: rgb(255, 255, 255);
+}
+
+.srchbtn:focus, .srchbtn:hover{
+box-shadow: none;
+outline: none;
+background-color: rgb(165, 60, 0);
+color: white;
+}
+
+.subsmodal{
+    background-color: rgba(0, 0, 0,0.7);
+    backdrop-filter: blur(9px);
+}
+
+.subsbtn{
+    background-color: rgb(165, 60, 0);
+    color: white;
+    outline: none;
+    border:2px solid rgba(165, 60, 0, 0);
+    box-shadow: 0 0 5px rgba(165, 60, 0, 0);
+}
+
+/* .subscribe-butn{
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 2.0em;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(168, 0, 0,0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+
+.subscribe-butn:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+} */
+
+aside, .default-list-group-2{
+    margin-bottom: 25px;
+}
+.default-list-group-2 .list-group-item a{
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.default-list-group-2 .list-group-item{
+    background-color: transparent;
+}
+
+
+.my_card, .default-body-content .default-list-group .list-group-item, .default-form , .default-body-content .default-list-group-2{
+    margin-bottom: 25px;
+    color: aliceblue;
+    background-color: rgba(105, 105, 105, 0.2);
+    backdrop-filter: blur(9px);
+    border:2px solid rgb(165, 60, 0);
+    box-shadow: 0 0 5px transparent;
+    border-radius: 10px;
+}
+.my_card:hover, .my_card:active ,.my_card:focus ,.default-body-content .default-list-group .list-group-item:hover,.default-body-content .default-list-group .list-group-item:active,.default-body-content .default-list-group .list-group-item:focus{
+    transition-duration: 0.4s;
+    background-color: rgba(95, 95, 95,0.5);
+    outline: none !important;
+    border:2px solid rgb(165, 60, 0);
+    box-shadow: 0 0 5px rgb(165, 60, 0);
+}
+
+.my_card h3{
+font-size: 1.4em;
+color: aliceblue;
+text-decoration: underline;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.my_card img{
+        width: 100%;
+        height: 100%;
+        filter: blur(.1em);
+        border-radius: 10px;
+    }
+.main-footer{
+    /* background-color: #222222; */
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
+    color:aliceblue ;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.content{
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+}
+
+.text404{
+    font-size: 7.5em;
+}
